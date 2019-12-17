@@ -1,0 +1,102 @@
+/* font-family: 'Open Sans', sans-serif; */
+body {
+
+	background-image: url('/img/img_page_style/ky2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+main {
+	/* background-color: rgba(0,130,114,0.9); */
+	background-color:#62cafd;
+	max-width: 850px;
+	min-height: 300px;
+	margin-left: 22%;
+	margin-top: 50px;
+}
+
+.main__wrapper__title {
+
+	padding: 50px 50px;
+}
+
+.main__wrapper__title h1,
+p {
+	
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFF;
+
+}
+
+.main__wrapper__title h1 {
+	letter-spacing: 1px;
+	line-height: 50px;
+}
+
+.content__wrapper {
+	background-color: #FFFFFF;
+	max-width: 850px;
+	margin-left: 22%;
+	height: 100%;
+}
+
+/* Пошла форма */
+
+.form__wrapper p {
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color:#fffafe;
+}
+
+.form__wrapper {
+	margin-left: 67px;
+	margin-top: 20px;
+	background-color:#cdcdcd;
+	width: 710px;
+	min-height: 80px;
+}
+
+
+.form__icon__number {
+	background-color:rgba(89, 198, 253, 0.9);
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFFFFF;
+}
+
+form {
+	margin-top: 20px;
+}
+
+
+.submit__btn {
+	width: 100px;
+	height: 40px;
+	background-color:transparent;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(98, 201, 252, 0.7);
+	text-transform: uppercase;
+	color: #0A0A0A;
+	margin-bottom: 10px;
+}
+
+
+
+
+footer {
+
+	background-color:#62cafd;
+	height: 100px;
+	padding-top: 100px;
+	text-align: center;
+	margin-top: 100px;
+
+	max-width: 850px;
+	margin-left: 22%;
+
+}

@@ -1,0 +1,381 @@
+
+
+.header {
+	/*background-color:#7fdcfe;*/
+	/*background-image: linear-gradient(to top right, #cdcdcd, #20a6fe);*/
+	background-image: linear-gradient(to top right, #7fdcfe, #20a6fe);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100px;
+	width:100%;
+	height:268px;
+
+
+}
+
+a {
+	text-decoration: none !important;
+}
+.mainimage {
+	margin-left: 100px;
+}
+
+.navbar {
+	margin-right: 30px;
+	bottom:120px;
+
+}
+
+.btn1 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.btn2 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#mySlider {
+	width: 100vw;
+}
+
+.carousel-indicators .active{
+	background-color: #26b34d;
+}
+
+.mainBlock {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.kyExamination__main {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size:16px;
+	line-height: 55px;
+	height:300px;
+}
+
+.kyExamination__text {
+	display: flex;
+	justify-content: center;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 30px;
+}
+
+.button__first__line {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.button1 {   /* Новые кнопки */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 203px;
+	height: 66px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #919191;
+}
+
+.button__text {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.button1:hover {
+	border-color:#42b3ff;
+}
+
+.button__second__line {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.underline {
+	background-image: linear-gradient(black, black);
+	background-size: 100% 1px;
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+
+.footer1 {
+	
+	/*new raws*/
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	border-top: 1px solid #919191;
+	/*new raws*/
+	padding-top: 50px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 10px;
+	line-height: 30px;
+
+}
+
+/*.footer1 {*/
+
+/*position: absolute;*/
+/*left: 0;*/
+/*bottom: 0;*/
+/*width: 100%;*/
+/*height: 80px;*/
+/*padding-top: 50px;*/
+/*margin-bottom: 20px;*/
+/*text-align: center;*/
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-style: normal;*/
+/*font-weight: 300;*/
+/*font-size: 10px;*/
+/*line-height: 30px;*/
+
+/*}*/
+
+.footer_copiright {
+	line-height: 1.5;
+}
+
+.btn_transp {
+	border:none;
+	background-color:transparent;
+	font:15pt BankGothic Lt BT;
+}
+
+.btn_sign {
+
+	margin-top: 20px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: 1.5px solid #42b3ff;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 800;
+	width:300px;
+	height:40px;
+;
+}
+
+/*.btn_sign:hover {*/
+	/*border-color:#42b3ff;*/
+/*}*/
+
+.reg_link {
+	font-family: 'Open Sans', sans-serif;
+	color:#000000;
+}
+.modal-title {
+	margin-left:155px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	color:black;
+}
+
+
+
+.form_text {
+	margin-bottom: 0px;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	color:black;
+}
+
+.form_text_error {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	color:red;
+}
+
+.modal-header {
+	border:none;
+}
+
+.modal-content {
+	height:450px;
+	border-radius: 2px;
+	box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+	width:300px;
+}
+
+.content_pos {
+	margin-left: 70px;
+}
+
+.href_forget_container {
+	margin-top:30px;
+	margin-left:85px;
+}
+
+
+.href_font_forget {
+	font-size:13px;
+	font-weight: 500;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	color:#42b3ff;
+}
+
+.registration_form {
+	margin-top:20px;
+}
+.registration_form_text {
+	font-size:13px;
+	font-weight: 500;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	color:#000000;
+	margin:0;
+}
+
+.registration_form_text_foot {
+	font-size:12px;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	color:#000000;
+	margin:0;
+}
+
+.registration_form_text_sign {
+	font-size:12px;
+	font-weight: 500;
+	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	color:#42b3ff;
+	margin:0;
+}
+
+.container_reg {
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+.main_registration {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.ky_registration {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size:25px;
+	line-height: 55px;
+}
+
+.reg_input_form {
+	width:500px;
+
+}
+
+.btn_reg {
+	margin-left:60px;
+	margin-top: 20px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: 1.5px solid #42b3ff;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+	font-weight: 800;
+	width:400px;
+	height:40px;
+}
+
+.check_box_reg {
+	margin-top:10px;
+}
+
+.check_box_reg_margin {
+	margin-right:110px;
+}
+
+/* Dropdown Button */
+.button_z {
+	z-index:2;
+}
+
+.dropbtn {
+	z-index:999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 203px;
+	height: 66px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #919191;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.dropbtn:hover {
+	border-color:#42b3ff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 203px;
+	background-color:white;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 4px 16px;
+	text-decoration: none;
+	display: block;
+	border: 1px solid #e6e6e6;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color:white;
+	border-color:#42b3ff;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show1 {display:block;}
+
+.show2 {display:block;}

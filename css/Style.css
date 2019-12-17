@@ -1,0 +1,143 @@
+
+
+/* font-family: 'Open Sans', sans-serif; */
+body {
+	background: #FFFFFF;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	min-height: 100px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+a {
+	text-decoration: none !important;
+}
+.mainimage {
+	margin-left: 150px;
+}
+
+.navbar {
+	margin-right: 150px;
+}
+
+.btn1 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.btn2 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+#mySlider {
+	width: 100vw;
+}
+
+.carousel-indicators .active{
+    background-color: #26b34d;
+}
+
+.mainBlock {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.kyExamination__main {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 55px;
+}
+
+.kyExamination__text {
+	display: flex;
+	justify-content: center;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.button__first__line {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.button1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 20px;
+	width: 315px;
+	height: 80px;
+	background: #FFFFFF;
+	border-radius: 6px;
+	border: 1px solid #000000;
+}
+
+.button__text {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.button1:hover {
+	box-shadow: 0 5px #26b34d inset;
+}
+
+.button__second__line {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.underline {
+  background-image: linear-gradient(black, black);
+  background-size: 100% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
+.footer1 {
+	padding-top: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 30px;
+
+}
+
+/* strip */
+.underline {
+  background-image: linear-gradient(black, black);
+  background-size: 100% 1px;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  margin-top: 100px;
+}
+
