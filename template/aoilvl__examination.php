@@ -34,6 +34,8 @@
 
 </div>
 
+
+
 <!-- strip -->
 <!--  <hr class="underline"> -->
 <!-- footer -->
@@ -50,9 +52,3 @@
 <script src="/js/script-a6.js"></script>
 </body>
 </html>
-
-
-
-
-
-

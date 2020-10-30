@@ -20,18 +20,21 @@
     </main>
 
 	<?php foreach ($get_question_list as $question):?>
+	<?php $flag=strpos($question['description'],'#')?>
         <div class="content__wrapper">
           <div class="form__wrapper">
             <div class="form__icon__number">
               1
             </div>
             <div>
-                <p><?=$question['description']?></p>
+                <?php if(!$flag){$q_part=$question['description'];}else{$q_part=explode("#",$question['description']);$q_part=$q_part[0];}?>
+                <p><?=$q_part?></p>
                 <img src="<?=$question['image']?>" alt="grab__Process" width="700" height="400">
                     <form action="/ajax_test.php" method="post" autocomplete="off" enctype="multipart/form-data">
                       <input type="text" name="answer" id="answer" placeholder
                       style="width: 690px; height: 40px; 
                       margin-left: 10px">
+
 						<input type="hidden" id="questionID" name="question_id" value="<?=$question['id']?>">
                       <input class="submit__btn" type="submit" value="submit">
                     </form>
@@ -41,9 +44,6 @@
     </div>
    <?php endforeach;?>
 
-
-
-
     <footer>
 
     </footer>
@@ -51,6 +51,6 @@
     <script src="/js/bootstrap.bundle.min.js"></script>
     <script src="/js/script-a6.js"></script>
   	<script src="/js/question_add_form.js"></script>
-  </body>
+
 </html>
 
